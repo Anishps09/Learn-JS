@@ -1,8 +1,12 @@
-lastnameLength = lastname.length;
-console.log(lastnameLength);
+// lastnameLength = lastname.length;
+// console.log(lastnameLength);
 
 var str = "Hello, welcome to the world of JavaScript";
 var n = str.includes("JavaScript");
 console.log(n);
-str = "Hello, welcome to JS";
-console.log(str);
+str = "Hello, welcome to JS ";
+console.log(str.length);
+
+
+var lastofstr = str[str.length - 2];
+console.log(lastofstr);
